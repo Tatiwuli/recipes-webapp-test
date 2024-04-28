@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timed Recipes</title>
+    <title>Single Recipe Page</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <!-- Building the NAVIGATION BAR -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- when clicking in the logo, it goes back to home page -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img
+              class="logo-img"
+              src="./assets/logo.png"
+              alt="recipe webapp logo"
+            />
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+
+        <!-- Contact page
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </div> -->
+      </div>
+    </nav>
+
+    <h1 recipeName></h1>
+    <section id="single-recipe-section"></section>
+
+    <!-- footer-->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date">2024</span>
+        <span class="footer-logo">TimedFood</span>
+        .Built by Tatiane W.L
+      </p>
+    </footer>
+
+    <!-- JAVA SCRIPT-->
+    <script src="./js/single-recipe.js"></script>
+  </body>
+</html>
